@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Kamalakannan A — Android Developer and Web Developer. Explore my mobile applications, responsive websites, projects and resume.">
+    <meta name="author" content="Kamalakannan A">
+
+    <title>Kamalakannan A | Android Developer &amp; Web Developer</title>
+
+    <link rel="icon" href="pics/logo.png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Scroll progress -->
+    <div class="scroll-progress"><span id="scrollBar"></span></div>
+
+    <!-- ================= HEADER / NAV ================= -->
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-inner">
+                <a class="brand" href="#home">
+                    <img src="pics/logo.png" class="brand-logo" alt="Kamalakannan logo">
+                    <span>Kamalakannan<span class="dot">.</span></span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="nav-links ms-auto">
+                        <li><a href="#home" class="is-active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <a href="resume.html" class="btn-x btn-primary btn-sm-x nav-cta">
+                        <i class="fa-solid fa-file-arrow-down"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================= HERO / HOME ================= -->
+        <section class="hero" id="home">
+            <span class="hero-blob b1"></span>
+            <span class="hero-blob b2"></span>
+            <span class="hero-blob b3"></span>
+
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="eyebrow"><i class="fa-solid fa-hand-sparkles"></i> Hello, I'm</span>
+                    <h1>Kamalakannan <span class="gradient-text">A</span></h1>
+                    <h2 class="role">
+                        <span>Android Developer</span>
+                        <span class="sep">|</span>
+                        <span>Web Developer</span>
+                    </h2>
+                    <p class="type-line"><span id="typewriter"></span><span class="cursor">&nbsp;</span></p>
+                    <p class="lead">
+                        A detail-oriented Computer Science graduate passionate about building reliable Android
+                        applications and responsive, user-friendly websites. I enjoy turning ideas into clean,
+                        functional products using Java, Flutter and modern web technologies.
+                    </p>
+
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn-x btn-primary">
+                            <i class="fa-solid fa-diagram-project"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn-x btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                        <a href="resume.html" class="btn-x btn-ghost">
+                            <i class="fa-solid fa-file-lines"></i> View My Resume
+                        </a>
+                    </div>
+
+                    <div class="hero-social">
+                        <a href="https://github.com/kamalakannan32" target="_blank" rel="noopener"
+                            aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kamalakannan24/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:kamalakannanarivazhagan@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/_kamal__24_" target="_blank" rel="noopener"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-photo">
+                    <div class="photo-ring">
+                        <img src="pics/kamal1.png" alt="Kamalakannan A">
+                    </div>
+                    <div class="float-card badge-android"><i class="fa-brands fa-android"></i> Android Developer</div>
+                    <div class="float-card badge-web"><i class="fa-solid fa-code"></i> Web Developer</div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-cue" aria-label="Scroll down">
+                <span class="mouse"></span>
+                Scroll
+            </a>
+        </section>
+
+        <!-- ================= ABOUT ================= -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow"><i class="fa-solid fa-user"></i> About Me</span>
+                    <h2>Get to know me</h2>
+                    <p>Entry-level Android &amp; Web Developer based in Chennai, open to relocation and eager to build
+                        dependable, user-friendly digital products.</p>
+                    <div class="under-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-photo reveal d1">
+                        <div class="frame-wrap">
+                            <div class="frame">
+                                <img src="pics/kamal1.png" alt="Kamalakannan A profile photo">
+                            </div>
+                            <div class="exp-badge">
+                                <strong>2025</strong>
+                                <span>B.Sc. CS Graduate</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal d2">
+                        <h3>Android Developer &amp; Web Developer</h3>
+                        <p>
+                            I hold a B.Sc. in Computer Science and have a strong foundation in Java, Flutter, Dart,
+                            Android Studio, XML and the Android SDK. I'm comfortable with Object-Oriented Programming,
+                            Activities, Intents, UI components, REST API integration, JSON and SQLite, and I use Git and
+                            GitHub to manage my work.
+                        </p>
+                        <p>
+                            On the web side, I build responsive interfaces with HTML, CSS, JavaScript and Bootstrap.
+                            I'm seeking an entry-level Android or Java Developer role where I can contribute to a
+                            professional team and keep growing.
+                        </p>
+
+                        <ul class="info-grid">
+                            <li><i class="fa-solid fa-user"></i> Kamalakannan A</li>
+                            <li><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu</li>
+                            <li><i class="fa-solid fa-envelope"></i> kamalakannanarivazhagan@gmail.com</li>
+                            <li><i class="fa-solid fa-phone"></i> +91 63694 49885</li>
+                            <li><i class="fa-solid fa-briefcase"></i> Open to Relocation</li>
+                            <li><i class="fa-solid fa-cake-candles"></i> Freelance: Available</li>
+                        </ul>
+
+                        <div class="about-actions">
+                            <a href="#contact" class="btn-x btn-primary"><i class="fa-solid fa-comment-dots"></i> Let's
+                                Talk</a>
+                            <a href="resume.html" class="btn-x btn-outline"><i class="fa-solid fa-file-lines"></i> View
+                                Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow"><i class="fa-solid fa-layer-group"></i> Technical Skills</span>
+                    <h2>What I work with</h2>
+                    <p>A practical skill set spanning Android application development and responsive web development.</p>
+                    <div class="under-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal d1">
+                        <div class="skill-icon"><i class="fa-brands fa-android"></i></div>
+                        <h3>Android Development</h3>
+                        <p>Building native and cross-platform mobile apps with clean UI and reliable logic.</p>
+                        <div class="chips">
+                            <span class="chip">Java</span>
+                            <span class="chip">Android Studio</span>
+                            <span class="chip">Android SDK</span>
+                            <span class="chip">XML</span>
+                            <span class="chip">Activities</span>
+                            <span class="chip">Intents</span>
+                            <span class="chip">UI Components</span>
+                            <span class="chip">SQLite</span>
+                            <span class="chip">API Integration</span>
+                            <span class="chip">JSON</span>
+                            <span class="chip">Flutter</span>
+                            <span class="chip">Dart</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal d2">
+                        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive, accessible websites that look great on every screen size.</p>
+                        <div class="chips">
+                            <span class="chip">HTML5</span>
+                            <span class="chip">CSS3</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">React</span>
+                            <span class="chip">Bootstrap</span>
+                            <span class="chip">Responsive Web Design</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal d3">
+                        <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Programming &amp; Tools</h3>
+                        <p>Core programming fundamentals and the everyday tools I use to ship projects.</p>
+                        <div class="chips">
+                            <span class="chip">Python</span>
+                            <span class="chip">C</span>
+                            <span class="chip">SQL / MySQL</span>
+                            <span class="chip">OOPs</span>
+                            <span class="chip">Git</span>
+                            <span class="chip">GitHub</span>
+                            <span class="chip">VS Code</span>
+                            <span class="chip">Android Emulator</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="bars reveal d2">
+                    <div class="bar-item">
+                        <div class="bar-top"><span>Java &amp; OOPs</span><span>85%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-top"><span>Android Development</span><span>80%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-top"><span>HTML / CSS</span><span>92%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-top"><span>JavaScript</span><span>85%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-top"><span>Flutter &amp; Dart</span><span>75%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-top"><span>SQL / MySQL</span><span>78%</span></div>
+                        <div class="bar-track">
+                            <div class="bar-fill" data-width="78"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow"><i class="fa-solid fa-diagram-project"></i> Projects</span>
+                    <h2>Selected work</h2>
+                    <p>A mix of Android applications and responsive websites where practical skills meet real,
+                        user-centered solutions.</p>
+                    <div class="under-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- SRM Good Foods -->
+                    <article class="project-card reveal d1">
+                        <div class="project-media contain">
+                            <span class="project-tag">Web App</span>
+                            <img src="pics/food logo.png" alt="SRM Good Food ordering website">
+                        </div>
+                        <div class="project-body">
+                            <h3>Smart Food Ordering System — SRM Good Foods</h3>
+                            <p>A responsive food ordering website with interactive listings, shopping cart and Local
+                                Storage so cart data persists across sessions. Deployed publicly.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Local Storage</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://srmgoodfoods.netlify.app/" target="_blank" rel="noopener"
+                                    class="btn-x btn-primary btn-sm-x"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Live Demo</a>
+                                <a href="https://github.com/kamalakannan32/srmgoodfoods" target="_blank" rel="noopener"
+                                    class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i> Source</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Shopping App -->
+                    <article class="project-card reveal d2">
+                        <div class="project-media">
+                            <span class="project-tag">Android</span>
+                            <img src="pics/E-commerce.jpg" alt="Shopping mobile application">
+                        </div>
+                        <div class="project-body">
+                            <h3>Shopping Mobile Application</h3>
+                            <p>A mobile shopping app to browse and purchase clothing, with product listings, details,
+                                cart, quantity management and login/registration screens built with Flutter.</p>
+                            <div class="tech-tags">
+                                <span>Flutter</span><span>Dart</span><span>Android UI</span><span>Navigation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kamalakannan32/Shopping-app" target="_blank" rel="noopener"
+                                    class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i> Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Saravanan Electricals -->
+                    <article class="project-card reveal d3">
+                        <div class="project-media contain">
+                            <span class="project-tag">Business Site</span>
+                            <img src="pics/saravanan logo.png" alt="Saravanan Electricals website">
+                        </div>
+                        <div class="project-body">
+                            <h3>Saravanan Electricals — Business Website</h3>
+                            <p>A clean, product-focused website for an electricals store with a home banner, products,
+                                about and contact sections, fully responsive and live.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://kamalakannan32.github.io/saravanan_electricals/" target="_blank"
+                                    rel="noopener" class="btn-x btn-primary btn-sm-x"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                                <a href="https://github.com/kamalakannan32/saravanan_electricals" target="_blank"
+                                    rel="noopener" class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i>
+                                    Source</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Travel -->
+                    <article class="project-card reveal d1">
+                        <div class="project-media">
+                            <span class="project-tag">Landing Page</span>
+                            <img src="pics/travel banner.jpg" alt="Travel website landing page">
+                        </div>
+                        <div class="project-body">
+                            <h3>Travel Booking Landing Page</h3>
+                            <p>A visually rich travel landing page featuring destination highlights and a modern,
+                                responsive layout that adapts smoothly from desktop to mobile.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kamalakannan32" target="_blank" rel="noopener"
+                                    class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Car -->
+                    <article class="project-card reveal d2">
+                        <div class="project-media">
+                            <span class="project-tag">Showcase</span>
+                            <img src="pics/car.jpg" alt="Car showcase website">
+                        </div>
+                        <div class="project-body">
+                            <h3>Car Showcase Website</h3>
+                            <p>A sleek car showcase page with a strong hero section and card-based layout, built to
+                                present vehicles clearly across all screen sizes.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kamalakannan32" target="_blank" rel="noopener"
+                                    class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Jewellery -->
+                    <article class="project-card reveal d3">
+                        <div class="project-media">
+                            <span class="project-tag">E-commerce</span>
+                            <img src="pics/jewellery banner.jpg" alt="Jewellery store website">
+                        </div>
+                        <div class="project-body">
+                            <h3>Jewellery Store Website</h3>
+                            <p>An elegant jewellery storefront with a premium banner and product-focused sections,
+                                designed with a responsive, mobile-first approach.</p>
+                            <div class="tech-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/kamalakannan32" target="_blank" rel="noopener"
+                                    class="btn-x btn-outline btn-sm-x"><i class="fa-brands fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="text-center mt-4 reveal">
+                    <a href="https://github.com/kamalakannan32?tab=repositories" target="_blank" rel="noopener"
+                        class="btn-x btn-outline">
+                        <i class="fa-brands fa-github"></i> View more on GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= EDUCATION ================= -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow"><i class="fa-solid fa-graduation-cap"></i> Education &amp; Training</span>
+                    <h2>Education, training &amp; certifications</h2>
+                    <p>My academic background, technical training and certification in Android app development.</p>
+                    <div class="under-line"></div>
+                </div>
+
+                <div class="edu-layout">
+                    <div class="timeline reveal d1">
+                        <div class="tl-item">
+                            <div class="tl-card">
+                                <span class="period">08/2022 – 04/2025</span>
+                                <h3>Bachelor of Science in Computer Science</h3>
+                                <h4>SRM Institute of Science and Technology</h4>
+                                <p>Tiruchirappalli, India</p>
+                            </div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-card">
+                                <span class="period">06/2021 – 05/2022</span>
+                                <h3>HSC — Computer Science</h3>
+                                <h4>National Higher Secondary School</h4>
+                                <p>Mannargudi, India</p>
+                            </div>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-card">
+                                <span class="period">06/2019 – 05/2020</span>
+                                <h3>SSLC</h3>
+                                <h4>UAAT Higher Secondary School</h4>
+                                <p>Ammapettai, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cert-card reveal d2">
+                        <h3><i class="fa-solid fa-certificate"></i> Certification</h3>
+                        <span class="cert-badge"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                        <div class="cert-media">
+                            <img src="pics/kamal AI.jpg" alt="Android Studio Masterclass certificate">
+                        </div>
+                        <h4 style="font-size:1rem; margin-bottom:0.3rem;">Android Studio Masterclass — App Development
+                            Course</h4>
+                        <p>
+                            Gained hands-on experience designing user interfaces, writing application logic, handling
+                            user interactions, debugging code and testing apps on the Android emulator — building a
+                            solid foundation for creating and maintaining Android applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT ================= -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow"><i class="fa-solid fa-paper-plane"></i> Contact</span>
+                    <h2>Let's build something together</h2>
+                    <p>I'm actively looking for entry-level Android or Java Developer opportunities. Feel free to reach
+                        out!</p>
+                    <div class="under-line"></div>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-info reveal d1">
+                        <a class="contact-item" href="mailto:kamalakannanarivazhagan@gmail.com">
+                            <span class="ci-icon"><i class="fa-solid fa-envelope"></i></span>
+                            <span>
+                                <small>Email</small>
+                                <strong>kamalakannanarivazhagan@gmail.com</strong>
+                            </span>
+                        </a>
+                        <a class="contact-item" href="tel:+916369449885">
+                            <span class="ci-icon"><i class="fa-solid fa-phone"></i></span>
+                            <span>
+                                <small>Phone</small>
+                                <strong>+91 63694 49885</strong>
+                            </span>
+                        </a>
+                        <a class="contact-item" href="https://www.linkedin.com/in/kamalakannan24/" target="_blank"
+                            rel="noopener">
+                            <span class="ci-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                            <span>
+                                <small>LinkedIn</small>
+                                <strong>linkedin.com/in/kamalakannan24</strong>
+                            </span>
+                        </a>
+                        <a class="contact-item" href="https://github.com/kamalakannan32" target="_blank" rel="noopener">
+                            <span class="ci-icon"><i class="fa-brands fa-github"></i></span>
+                            <span>
+                                <small>GitHub</small>
+                                <strong>github.com/kamalakannan32</strong>
+                            </span>
+                        </a>
+                        <div class="contact-item">
+                            <span class="ci-icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <span>
+                                <small>Location</small>
+                                <strong>Chennai, Tamil Nadu — Open to Relocation</strong>
+                            </span>
+                        </div>
+                    </div>
+
+                    <form class="contact-form reveal d2" id="contactForm" novalidate>
+                        <h3>Send me a message</h3>
+                        <p>Fill in the form and I'll get back to you as soon as possible.</p>
+
+                        <div class="field">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Android / Web opportunity">
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-x btn-primary" style="width:100%;">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-note" id="formNote">Opens your email app with the message ready to send.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">
+                        <img src="pics/logo.png" alt="Kamalakannan logo">
+                        <span>Kamalakannan A</span>
+                    </div>
+                    <p>Android Developer &amp; Web Developer. Building reliable mobile apps and responsive websites with
+                        clean, user-focused design.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/kamalakannan32" target="_blank" rel="noopener"
+                            aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kamalakannan24/" target="_blank" rel="noopener"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:kamalakannanarivazhagan@gmail.com" aria-label="Email"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/_kamal__24_" target="_blank" rel="noopener"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Get in touch</h4>
+                    <ul>
+                        <li><a href="mailto:kamalakannanarivazhagan@gmail.com">kamalakannanarivazhagan@gmail.com</a></li>
+                        <li><a href="tel:+916369449885">+91 63694 49885</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; <span id="year"></span> <strong>Kamalakannan A</strong>. Designed &amp; developed with care.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
